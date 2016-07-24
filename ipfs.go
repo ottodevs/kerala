@@ -2,19 +2,19 @@ package kerala
 
 import (
 
-    "github.com/jbenet/go-ipfs/core"
-    "github.com/jbenet/go-ipfs/repo/fsrepo"
+    "github.com/ipfs/go-ipfs/core"
+    "github.com/ipfs/go-ipfs/repo/fsrepo"
     "code.google.com/p/go.net/context"
 	"fmt"
-	u "github.com/jbenet/go-ipfs/util"
-	merkledag "github.com/jbenet/go-ipfs/merkledag"
+	u "github.com/ipfs/go-ipfs/util"
+	merkledag "github.com/go-ipfs/merkledag"
     "net/http"
 	"bytes"
 	"strings"
 "io/ioutil"
 "encoding/hex"
 "encoding/json"
-commands "github.com/jbenet/go-ipfs/core/commands"
+commands "github.com/ipfs/go-ipfs/core/commands"
 
 
 
