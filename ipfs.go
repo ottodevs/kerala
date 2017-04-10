@@ -4,7 +4,7 @@ import (
 
     "github.com/ipfs/go-ipfs/core"
     "github.com/ipfs/go-ipfs/repo/fsrepo"
-    "code.google.com/p/go.net/context"
+    context
 	"fmt"
 	u "github.com/ipfs/go-ipfs/util"
 	merkledag "github.com/go-ipfs/merkledag"
